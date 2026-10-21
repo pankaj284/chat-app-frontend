@@ -42,3 +42,19 @@ The React + Vite frontend for a real-time MERN chat application. Communicates wi
 git clone https://github.com/pankaj284/chat-app-frontend.git
 cd YOUR_FRONTEND_REPO
 npm install
+```
+
+## Create .env file 
+```
+PORT=3000
+MONGO_DB_URL=your_mongodb_atlas_connection_string
+JWT_SECRET=your_super_secret_key
+```
+
+## Run
+```
+npm run dev
+```
+## Related
+**[Backend Repository](https://github.com/pankaj284/chat-app-backend.git)**
+
