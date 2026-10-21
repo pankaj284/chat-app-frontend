@@ -46,9 +46,8 @@ npm install
 
 ## Create .env file 
 ```
-PORT=3000
-MONGO_DB_URL=your_mongodb_atlas_connection_string
-JWT_SECRET=your_super_secret_key
+VITE_API_URL=http://localhost:3000/api
+VITE_SOCKET_URL=http://localhost:3000
 ```
 
 ## Run
