@@ -18,7 +18,7 @@ function Register() {
         setLoading(true);
 
         try {
-            const { data } = await axios.post(`${API_URL}/users/register`, {
+            const { data } = await axios.post(`${API_URL}/users/signup`, {
                 name,
                 username,
                 password,
